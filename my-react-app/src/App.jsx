@@ -114,7 +114,7 @@ function Keyboard({ keyStatuses, onKey }) {
                 onClick={() => onKey(key)}
                 aria-label={key === 'BACKSPACE' ? 'Backspace' : key}
               >
-                {key === 'BACKSPACE' ? '⌫' : key}
+                {key === 'BACKSPACE' ? 'DEL' : key}
               </button>
             )
           })}
